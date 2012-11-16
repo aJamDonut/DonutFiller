@@ -1,1 +1,11 @@
+DonutFiller
+
+This small but useful script allows a developer to reveal all the names of input tags on a webpage.
+
+Just setup server-side/donutfiller.php on a PHP webserver, and use the command below in Chrome or Firebugs developer tools console.
+
 function r() {s = document.createElement('script');s.type= 'text/javascript';s.src = 'http://url/to/donutfiller.php';document.head.appendChild(s);}r();
+
+Here is my pre-compiled version for ease of use, give it a whirl!
+
+function r() {s = document.createElement('script');s.type= 'text/javascript';s.src = 'http://www.ajamdonut.com/console.helper.php';document.head.appendChild(s);}r();
